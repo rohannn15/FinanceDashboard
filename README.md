@@ -65,6 +65,26 @@ The main entity used is FinancialRecord with the following fields:
 * Handles invalid data and missing records
 * Returns appropriate error messages
 
+  
+## API Documentation
+
+The API documentation is available using Swagger UI.
+
+Swagger URL:
+http://localhost:8080/swagger-ui/index.html
+
+To access the API documentation:
+
+1. Run the Spring Boot application using:
+   mvn spring-boot:run
+
+2. Open the above URL in a web browser
+
+3. Use the Swagger interface to test available APIs
+
+Note:
+The Swagger UI works only when the application is running locally.
+
 ## How to Run the Project
 
 1. Clone the repository
