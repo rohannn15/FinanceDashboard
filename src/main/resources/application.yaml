@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: dashboard
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dashboarddb?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    username: root
+    password: r7o4h4a8n
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
