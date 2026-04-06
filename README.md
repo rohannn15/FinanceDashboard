@@ -78,12 +78,6 @@ The main entity used is FinancialRecord with the following fields:
 4. Run the application
    mvn spring-boot:run
 
-## Assumptions
-
-* This is a single-user system
-* No authentication or authorization is implemented
-* Data is stored in a relational database
-
 ## Future Improvements
 
 * Add user authentication and authorization
